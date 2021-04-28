@@ -1,0 +1,31 @@
+
+.gallry{
+margin: 10px 50px;
+overflow: hidden;
+
+
+}.gallry img{
+    width: 300px;
+    padding: 5px;
+    transition: 1s;
+    filter: grayscale(50%);
+    border-radius: 15px;
+    overflow: hidden;
+}.gallry img:hover{
+    overflow: hidden;
+    filter: grayscale(0);
+    
+    transform: scale(1.1);
+    transition: all 5s linear;
+    overflow: hidden;
+    height: 350px;
+
+
+}.wrapper {
+    text-align: center;
+}
+
+.button {
+    position: absolute;
+    top: 50%;
+}
